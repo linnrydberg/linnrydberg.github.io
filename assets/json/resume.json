@@ -1,17 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Linn Rydberg",
+    "label": "Msc Machine Learning",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "linn.rydberg99@gmail.com",
+    "phone": "+46705642155",
+    "summary": "I studied engineering mathematics with a specialization in machine learning. I’m drawn to problems that require both theoretical thinking and practical implementation, and I enjoy working at the intersection of math, data, and real-world applications.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "5 New Drum Street",
+      "postalCode": "E1 7BQ",
+      "city": "London",
+      "countryCode": "UK"
     },
     "profiles": []
   },
@@ -75,27 +74,23 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "institution": "Lund University",
+      "location": "Lund, Sweden",
+      "area": "Applied Mathematics",
+      "studyType": "BSc",
+      "startDate": "2019",
+      "endDate": "2023",
       "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
     },
     {
       "institution": "Eidgenössische Technische Hochschule",
       "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
+      "area": "Data Science and ",
+      "studyType": "Exchange semester",
+      "startDate": "2023",
+      "endDate": "2024",
       "score": "",
-      "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "courses": ["Natural Language Processing", "Data Sciende", "Machine Learning", "Image Analysis", "Computer Vision", "Game Theory"],
     }
   ],
   "awards": [
