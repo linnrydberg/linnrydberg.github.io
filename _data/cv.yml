@@ -82,12 +82,26 @@ cv:
     Skills:
       - name: Programming
         icon: fa-solid fa-code
-        keywords: "Python (advanced), SQL, MATLAB, Java, R"
+        keywords:
+          - "Python (advanced)"
+          - SQL
+          - MATLAB
+          - Java
+          - R
 
       - name: Data & Tools
         icon: fa-solid fa-chart-bar
-        keywords: "Excel (advanced), Power BI, Git"
+        keywords:
+          - "Excel (advanced)"
+          - Power BI
+          - Git
 
       - name: Quantitative
         icon: fa-solid fa-square-root-variable
-        keywords: "Statistical modelling, optimization, time series analysis, reinforcement learning, options, greeks"
+        keywords:
+          - Statistical modelling
+          - Optimization
+          - Time series analysis
+          - Reinforcement learning
+          - Options
+          - Greeks
