@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linn Rydberg</title>
+  <meta name="description" content="Linn Rydberg — Applied mathematician and quantitative trader with a focus on machine learning and reinforcement learning." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style/tokens.css" />
+  <link rel="stylesheet" href="style/base.css" />
+  <link rel="stylesheet" href="style/layout.css" />
+  <link rel="stylesheet" href="style/components.css" />
+  <link rel="stylesheet" href="style/motion.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAV
+       ============================================================ -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="site-nav__inner">
+      <a href="#" class="site-nav__name">Linn Rydberg</a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <line x1="3" y1="6"  x2="17" y2="6"  />
+          <line x1="3" y1="10" x2="17" y2="10" />
+          <line x1="3" y1="14" x2="17" y2="14" />
+        </svg>
+      </button>
+
+      <ul class="site-nav__links" role="list">
+        <li><a class="site-nav__link" href="#about"    data-section="about">About</a></li>
+        <li><a class="site-nav__link" href="#cv"       data-section="cv">CV</a></li>
+        <li><a class="site-nav__link" href="#projects" data-section="projects">Projects</a></li>
+        <li><a class="site-nav__link" href="#blog"     data-section="blog">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       PAGE WRAPPER
+       ============================================================ -->
+  <main class="page-wrapper">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero__inner">
+        <h1 class="hero__name">Linn Rydberg</h1>
+        <p class="hero__tagline">
+          Applied mathematician interested in machine learning —
+          especially reinforcement learning and its applications in finance.
+        </p>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         ABOUT
+         ============================================================ -->
+    <section id="about" class="section">
+      <header class="section-header">
+        <span class="section-label section-label--about">About</span>
+      </header>
+
+      <div class="about-grid">
+        <img
+          src="assets/photo.jpg"
+          alt="Linn Rydberg"
+          class="about-photo"
+          width="120"
+          height="120"
+        />
+        <div class="about-body">
+          <p>
+            I'm an applied mathematician currently working as a Quantitative Trader at
+            IMC Trading in Amsterdam. My work sits at the intersection of mathematics,
+            machine learning, and markets.
+          </p>
+          <p>
+            My master's thesis — written at SEB, Sweden's largest bank — explored
+            reinforcement learning for optimal FX execution, implemented in Python and
+            PyTorch. It's the kind of problem I find endlessly interesting: using
+            sequential decision-making to operate under uncertainty in real, noisy systems.
+          </p>
+          <p>
+            Before that, I spent several years in political advisory and non-profit
+            leadership, which taught me how to communicate ideas clearly and build
+            things from nothing.
+          </p>
+
+          <div class="about-contact">
+            <a href="mailto:linn.rydberg99@gmail.com" class="about-contact__item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+              linn.rydberg99@gmail.com
+            </a>
+            <span class="about-contact__item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+              London, United Kingdom
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CV
+         ============================================================ -->
+    <section id="cv" class="section">
+      <header class="section-header">
+        <span class="section-label section-label--cv">CV</span>
+      </header>
+
+      <!-- Education -->
+      <div class="cv-group">
+        <p class="cv-group-label">Education</p>
+
+        <div class="cv-entry">
+          <span class="cv-entry__date">2019 – 2025</span>
+          <div class="cv-entry__content">
+            <p class="cv-entry__role">M.Sc &amp; B.Sc in Applied Mathematics</p>
+            <p class="cv-entry__org">Lund University — Lund, Sweden</p>
+            <p class="cv-entry__desc">Exchange semester at ETH Zürich.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <span class="cv-entry__date">2025</span>
+          <div class="cv-entry__content">
+            <p class="cv-entry__role">Master Thesis at SEB</p>
+            <p class="cv-entry__org">Skandinaviska Enskilda Banken — Stockholm, Sweden</p>
+            <p class="cv-entry__desc">
+              <em>Reinforcement Learning for Optimal FX Execution.</em>
+              Designed and implemented a reinforcement learning agent in Python and PyTorch
+              to optimise foreign exchange trade execution.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Experience -->
+      <div class="cv-group">
+        <p class="cv-group-label">Professional Experience</p>
+
+        <div class="cv-entry">
+          <span class="cv-entry__date">2025 – 2026</span>
+          <div class="cv-entry__content">
+            <p class="cv-entry__role">Quantitative Trader</p>
+            <p class="cv-entry__org">IMC Trading — Amsterdam, Netherlands</p>
+            <p class="cv-entry__desc">
+              Applied options theory and quantitative modelling. Leveraged Python (pandas)
+              and SQL for pricing, risk management, and strategy optimisation.
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <span class="cv-entry__date">2018 – 2021</span>
+          <div class="cv-entry__content">
+            <p class="cv-entry__role">Policy Advisor</p>
+            <p class="cv-entry__org">Liberal Party, City of Malmö — Malmö, Sweden</p>
+            <p class="cv-entry__desc">
+              Main advisor to the Deputy Mayor. Responsible for policy development,
+              speech writing, and media relations.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Internships -->
+      <div class="cv-group">
+        <p class="cv-group-label">Internships</p>
+
+        <div class="cv-entry">
+          <span class="cv-entry__date">Summer 2024</span>
+          <div class="cv-entry__content">
+            <p class="cv-entry__role">Tech Consulting Intern, AI &amp; Data</p>
+            <p class="cv-entry__org">EY (Ernst &amp; Young) — Stockholm, Sweden</p>
+            <p class="cv-entry__desc">
+              Used Power BI, Python, and SQL to analyse data, automate workflows,
+              and deliver insights for clients.
+            </p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <span class="cv-entry__date">Summer 2023</span>
+          <div class="cv-entry__content">
+            <p class="cv-entry__role">Summer Intern, Embedded Development</p>
+            <p class="cv-entry__org">ASSA ABLOY — Landskrona, Sweden</p>
+            <p class="cv-entry__desc">Developed embedded software in Python; version control with Git.</p>
+          </div>
+        </div>
+
+        <div class="cv-entry">
+          <span class="cv-entry__date">Summer 2022</span>
+          <div class="cv-entry__content">
+            <p class="cv-entry__role">Summer Intern</p>
+            <p class="cv-entry__org">E.ON Energy Networks — Malmö, Sweden</p>
+            <p class="cv-entry__desc">Conducted an interview study on improving internal IT systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="cv-group">
+        <p class="cv-group-label">Skills</p>
+        <div class="skills-grid">
+          <div class="skills-row">
+            <span class="skills-row__label">Programming</span>
+            <div class="skills-row__tags">
+              <span class="tag tag--rose">Python (advanced)</span>
+              <span class="tag tag--rose">SQL</span>
+              <span class="tag tag--rose">MATLAB</span>
+              <span class="tag tag--rose">Java</span>
+              <span class="tag tag--rose">R</span>
+            </div>
+          </div>
+          <div class="skills-row">
+            <span class="skills-row__label">Data &amp; Tools</span>
+            <div class="skills-row__tags">
+              <span class="tag tag--rose">Excel (advanced)</span>
+              <span class="tag tag--rose">Power BI</span>
+              <span class="tag tag--rose">Git</span>
+            </div>
+          </div>
+          <div class="skills-row">
+            <span class="skills-row__label">Quantitative</span>
+            <div class="skills-row__tags">
+              <span class="tag tag--rose">Reinforcement learning</span>
+              <span class="tag tag--rose">Statistical modelling</span>
+              <span class="tag tag--rose">Time series analysis</span>
+              <span class="tag tag--rose">Optimisation</span>
+              <span class="tag tag--rose">Options &amp; Greeks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ============================================================
+         PROJECTS
+         ============================================================ -->
+    <section id="projects" class="section">
+      <header class="section-header">
+        <span class="section-label section-label--projects">Projects</span>
+      </header>
+
+      <div class="projects-list">
+
+        <article class="project-card">
+          <div class="project-card__header">
+            <h3 class="project-card__title">RL for Optimal FX Execution</h3>
+          </div>
+          <p class="project-card__desc">
+            Master's thesis at SEB. Framed foreign exchange trade execution as a
+            Markov decision process and trained a reinforcement learning agent to
+            minimise market impact. Implemented from scratch in Python and PyTorch.
+          </p>
+          <div class="project-card__tags">
+            <span class="tag tag--sand">Python</span>
+            <span class="tag tag--sand">PyTorch</span>
+            <span class="tag tag--sand">Reinforcement Learning</span>
+            <span class="tag tag--sand">FX</span>
+          </div>
+        </article>
+
+        <!-- Add more projects here -->
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BLOG
+         ============================================================ -->
+    <section id="blog" class="section">
+      <header class="section-header">
+        <span class="section-label section-label--blog">Blog</span>
+      </header>
+
+      <div class="blog-list">
+        <!-- Empty state — remove when first post is added -->
+        <div class="blog-empty">
+          <p class="blog-empty__text">Nothing here yet — writing takes time.</p>
+        </div>
+
+        <!-- Post template (copy, uncomment, and fill in when ready):
+
+        <a href="/blog/post-slug" class="blog-post">
+          <time class="blog-post__date" datetime="YYYY-MM-DD">MMM YYYY</time>
+          <div>
+            <p class="blog-post__title">Post title here</p>
+            <p class="blog-post__excerpt">One-line excerpt or summary.</p>
+          </div>
+        </a>
+
+        -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="page-wrapper">
+    <div class="site-footer">
+      <p class="site-footer__copy">© 2026 Linn Rydberg</p>
+      <nav class="site-footer__links" aria-label="Footer links">
+        <a href="mailto:linn.rydberg99@gmail.com" class="site-footer__link">Email</a>
+        <a href="https://www.linkedin.com/in/linnrydberg" class="site-footer__link" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/linnrydberg" class="site-footer__link" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script/main.js"></script>
+</body>
+</html>
