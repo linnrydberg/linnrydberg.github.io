@@ -98,7 +98,9 @@
 
 .hero__name {
   font-size: var(--text-4xl);
-  font-style: italic;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  letter-spacing: -0.02em;
   line-height: var(--leading-tight);
   margin-bottom: var(--space-4);
 }
