@@ -85,10 +85,10 @@
 
 /* --- Hero --- */
 .hero {
-  min-height: 45vh;
+  min-height: 50vh;
   display: flex;
-  align-items: flex-end;
-  padding-top: calc(var(--nav-height) + var(--space-24));
+  align-items: center;
+  padding-top: calc(var(--nav-height) + var(--space-16));
   padding-bottom: var(--space-24);
 }
 
@@ -96,22 +96,35 @@
   width: 100%;
 }
 
+.hero__greeting {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-accent-sage);
+  letter-spacing: 0.04em;
+  margin-bottom: var(--space-4);
+  max-width: none;
+}
+
 .hero__name {
   font-size: var(--text-4xl);
   font-family: var(--font-sans);
   font-weight: 300;
   letter-spacing: -0.02em;
-  line-height: var(--leading-tight);
-  margin-bottom: var(--space-4);
+  line-height: 1.15;
+  margin-bottom: var(--space-8);
 }
 
-.hero__tagline {
-  font-size: var(--text-lg);
-  color: var(--color-text-secondary);
+.hero__body {
   max-width: 52ch;
 }
 
-.hero__tagline + .hero__tagline {
+.hero__body p {
+  font-size: var(--text-base);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.hero__body p + p {
   margin-top: var(--space-4);
 }
 
